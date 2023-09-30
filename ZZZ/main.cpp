@@ -6,13 +6,13 @@ namespace fs = std::filesystem;
 
 void main(int argc, char** argv) {
 	if (argc == 1) {
-		cout << "½«¾øÇøÁãBundlesÎÄ¼þ×ªÎªÕý³£BundlesÎÄ¼þ By:²¤ÂÜÐ¡Î÷¹Ï" << endl;
-		cout << "±¾³ÌÐò½öÔÚÄÚÈº´«²¥£¬½ûÖ¹Íâ´«£¡£¡£¡" << endl;
+		cout << "å°†ç»åŒºé›¶Bundlesæ–‡ä»¶è½¬ä¸ºæ­£å¸¸Bundlesæ–‡ä»¶ By:Sakura Nyoru" << endl;
+		//cout << "æœ¬ç¨‹åºä»…åœ¨å†…ç¾¤ä¼ æ’­ï¼Œç¦æ­¢å¤–ä¼ ï¼ï¼ï¼" << endl;
 		cout << endl;
-		cout << "²ÎÊý: <method> <inpath> <outpath>" << endl;
-		cout << "method : onlyfile (onlyfile½öÔÊÐíÊäÈëµ¥¸öÎÄ¼þ½âÃÜ)" << endl;
-		cout << "inpath : ¼ÓÃÜÎÄ¼þÂ·¾¶" << endl;
-		cout << "outpath : ½âÃÜÎÄ¼þÂ·¾¶" << endl;
+		cout << "å‚æ•°: <method> <inpath> <outpath>" << endl;
+		cout << "method : onlyfile (onlyfileä»…å…è®¸è¾“å…¥å•ä¸ªæ–‡ä»¶è§£å¯†)" << endl;
+		cout << "inpath : åŠ å¯†æ–‡ä»¶è·¯å¾„" << endl;
+		cout << "outpath : è§£å¯†æ–‡ä»¶è·¯å¾„" << endl;
 	}
 	else {
 		string args[4];
